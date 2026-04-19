@@ -1,0 +1,13 @@
+Virtual Environment
+1. Press Cmd + Shift + P
+2. Type “Python: Create Environment”
+3. Select “Venv”
+4. Select your Python installation
+5. VS Code creates and activates everything for you!
+
+
+Interactive Python
+# shift + enter
+# It allow us to check each code partially and not fully
+# Allow us to look at specific variables
+
