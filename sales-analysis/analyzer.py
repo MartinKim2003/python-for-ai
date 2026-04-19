@@ -2,7 +2,7 @@
 import pandas as pd
 from helpers import calculate_total, format_currency
 
-# Read the data
+# Read data
 df = pd.read_csv('data/sales.csv')
 
 # Calculate total for each row
@@ -25,4 +25,3 @@ grand_total = df['total'].sum()
 formatted_grand_total = format_currency(grand_total)
 print(f"\nGrand Total: {formatted_grand_total}")
 
-print(grand_total)
